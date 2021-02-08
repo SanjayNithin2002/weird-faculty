@@ -10,7 +10,6 @@ def exam(v):
         if b>c:
                 return k
 
-v=list()
-for i in range(int(input())): v.append(int(input()))
+v=[int(input()) for i in range(int(input()))]
 print(exam(v))
 
